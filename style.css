@@ -3,6 +3,10 @@ h1 {
     margin-top: 10%;
     color: white;
 }
+b {
+    color: black;
+    font-weight: bold;
+}
 p {
     text-align: center;
     margin-top: 2%;
