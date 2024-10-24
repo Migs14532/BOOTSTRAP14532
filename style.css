@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+}
+p {
+    text-align: center;
+    margin-top: 2%;
+    color: whitesmoke;
+}
+footer {
+    text-align: center;
+    margin-top: 30%;
+    color: white;
+}
+body {
+    background-image: url("wow.gif");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    margin-top: 0;
+}
