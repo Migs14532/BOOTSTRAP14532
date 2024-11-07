@@ -1,5 +1,5 @@
 body {
-    background-image: url("wow.gif");
+    background-image: url("wew.gif");
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -32,12 +32,13 @@ h1 {
     color: #343a40; 
     margin-bottom: 30px; 
 }
-.container {
+.container1 {
     max-width: 600px;
     padding: 20px;
     background-color: white; 
     border-radius: 8px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 5% auto;
 }
 .form-label {
     font-weight: bold; 
