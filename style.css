@@ -22,8 +22,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     margin-bottom: 20px; 
 }
 h1 {
-    color: white; 
-    margin-bottom: 30px; 
+    color: white;  
 }
 .container1 {
     max-width: 600px;
@@ -59,4 +58,42 @@ h1.text-center {
 }
 label.form-label {
     color: white;
+}
+
+.containerxv1 {
+    background-color:black;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 20vh;
+    margin: 5% auto;
+}
+.skill {
+display: flex;
+align-items: center;
+}
+.skill-name {
+font-weight: bold;
+width: 30%;
+color: white;
+}
+.progress-bar {
+width: 60%;
+background-color: white;
+border-radius: 5px;
+overflow: hidden;
+position: relative;
+}
+.progress {
+height: 8px;
+background-color: red;
+}
+.skill-percentage {
+width: 10%;
+text-align: right;
+color: white;
 }
