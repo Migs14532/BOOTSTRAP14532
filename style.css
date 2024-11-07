@@ -22,9 +22,7 @@ p {
     margin-top: 2%;
     color: whitesmoke;
 }
-nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-    margin-top: 0;
-}
+
 .navbar {
     margin-bottom: 20px; 
 }
@@ -52,7 +50,8 @@ h1 {
 }
 footer {
     text-align: center;
-    margin-bottom: 0; 
+    justify-content: center;
+    margin: 16%;
     color: white; 
 }
 p.lead {
