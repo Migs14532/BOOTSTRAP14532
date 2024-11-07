@@ -1,12 +1,5 @@
 body {
-    background-image: url("wew.gif");
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    background-color: #f8f9fa; 
-    font-family: Arial, sans-serif; 
+    background-color: black; 
 }
 h1 {
     text-align: center;
@@ -22,21 +15,22 @@ p {
     margin-top: 2%;
     color: whitesmoke;
 }
-
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    margin-top: 0;
+}
 .navbar {
     margin-bottom: 20px; 
 }
 h1 {
-    color: #343a40; 
+    color: white; 
     margin-bottom: 30px; 
 }
 .container1 {
     max-width: 600px;
     padding: 20px;
-    background-color: white; 
     border-radius: 8px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-    margin: 5% auto;
+    margin: 10% auto;
 }
 .form-label {
     font-weight: bold; 
@@ -50,13 +44,19 @@ h1 {
 }
 footer {
     text-align: center;
-    justify-content: center;
-    margin: 16%;
-    color: white; 
+    margin-bottom: 0; 
+    color: whitesmoke; 
+    font-size: 20px;
 }
 p.lead {
-    color: black;
+    color: white;
 }
 .lead {
     text-align: center;
+}
+h1.text-center {
+    color: white;
+}
+label.form-label {
+    color: white;
 }
