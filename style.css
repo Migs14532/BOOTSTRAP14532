@@ -8,8 +8,16 @@ body {
   text-align: center;
 }
 
-
-
 .row.mt-4 {
   display: flex;
   }
+
+.container1 {
+  margin: 1%;
+  text-align: center;
+  justify-content: center;
+}
+
+p {
+  margin: 1%;
+}
