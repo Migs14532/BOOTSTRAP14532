@@ -4,32 +4,58 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>Contact - My Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
 </head>
-
+  <style>
+         body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        footer {
+            color: white;
+            padding: 20px 0;
+            margin-top: 50px; 
+        }
+        footer p {
+            margin: 0;
+        }
+        .navbar-brand {
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            font-size: 1rem;
+            margin-left: 10px;
+            font-weight: bold;
+        }   
+        .navbar-dark .navbar-nav .nav-link.active {
+            font-weight: bold;
+        }
+        p {
+            background-color: black;
+            padding: 20px;
+            color: white;
+        }
+  </style>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="index.html">Miguel</a>
+          <a class="navbar-brand" href="index.html">Migsss</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
             </ul>
           </div>
         </div>
       </nav>
 
-    <div class="container mt-5 dropdown-toggle text-light bg-dark">
-        <h1 class="text-center">Contact Me!</h1>
+    <div class="container mt-5 dropdown-toggle text-dark bg-white">
+        <h1 class="text-center fs-1">Contact Me!</h1>
         <form id="contact-form">
             <div class="mb-3">
                 <label for="name" class="form-label">Name:</label>
@@ -55,10 +81,13 @@
         </form>
     </div>
 
-    <footer class="text-dark text-center ">
-        <p>&copy; 2024 My Website. All rights reserved.</p>
-    </footer>
+    <br>
+    <br>
 
+    <footer class="text-dark text-center ">
+      <p>&copy; 2024 Miguel. All rights reserved.</p>
+    </footer>
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
