@@ -9,16 +9,16 @@
 </head>
   <style>
          body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: Monospace, sans-serif;
+                line-height: 1.6;
+                scroll-behavior: smooth;
+                background-image: url("19.jpg");
+                background-size: cover;
         }
         footer {
+            background-color: black;
             color: white;
-            padding: 20px 0;
-            margin-top: 50px; 
-        }
-        footer p {
-            margin: 0;
+            padding: 10px;
         }
         .navbar-brand {
             font-size: 1.3rem;
@@ -31,11 +31,6 @@
         }   
         .navbar-dark .navbar-nav .nav-link.active {
             font-weight: bold;
-        }
-        p {
-            background-color: black;
-            padding: 20px;
-            color: white;
         }
   </style>
 <body>
@@ -54,7 +49,7 @@
         </div>
       </nav>
 
-    <div class="container mt-5 dropdown-toggle text-dark bg-white">
+    <div class="container mt-5 dropdown-toggle text-light border border-light rounded">
         <h1 class="text-center fs-1">Contact Me!</h1>
         <form id="contact-form">
             <div class="mb-3">
@@ -76,15 +71,14 @@
                 <label for="message" class="form-label">Message:</label>
                 <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
             </div>
-
-            <button type="submit" class="btn btn-primary">Send Message</button>
+                <button type="submit" class="btn btn-primary">Send Message</button>
         </form>
     </div>
 
     <br>
     <br>
 
-    <footer class="text-dark text-center ">
+    <footer class="text-center ">
       <p>&copy; 2024 Miguel. All rights reserved.</p>
     </footer>
   

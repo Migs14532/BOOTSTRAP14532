@@ -12,3 +12,4 @@ document.getElementById('contact-form').addEventListener('submit', function(even
             alert('Failed to send the message: ' + JSON.stringify(error));
         });
 });
+
